@@ -1,14 +1,14 @@
 # Exercise 3
 
 ## Objectives
-The provided code is the HTML and CSS for the home page and about page of a local company's website. However, the CSS is missing all of its selectors! You need to figure out which HTML elements to apply each style rule to, so that your finished website looks like the images below. After that, you will write some HTML and CSS of your own.
+The provided code is the HTML and CSS for the home page and story page of a website inspired by a local company. However, the CSS is missing all of its selectors! You need to figure out which HTML elements to apply each style rule to, so that your finished website looks like the images below. After that, you will write some HTML and CSS of your own.
 ![Image of homepage](images/finished-homepage.png)
-![Image of homepage](images/finished-about.png)
+![Image of homepage](images/finished-story.png)
 
 ## Instructions
 Remember to:
 * Regularly save your files and check out what your web page looks like in a web browser.
-* Make regular commits and pushes.
+* Make regular commits and label them appropriately to document your progress.
 ### Step 1: Get set up
 * Clone your remote exercise repository onto your local machine.
 * Add a comment in the head element of the homepage including: the course code and your section number - your name - Exercise 3. Example:
@@ -30,6 +30,8 @@ p {
   color: red;
 }
 ```
+Note: The provided code includes HTML elements and CSS properties that you haven't learned about yet. That's ok because this exercise is about understanding the hierarchy between the elements and the syntax of the selectors. You don't need to understand all the code to be able to do the exercise.
+
 ### Step 3: Write your own code
 * Add a new group of content anywhere in either one of the HTML files. You will need to write the content and the HTML yourself. Include at least four different types of HTML elements in your new group of content.
 * Style your new content using all of the following:
