@@ -1,0 +1,148 @@
+/* ======== GENERAL STYLES ========= */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+section, header, nav ul, blockquote {
+  width: 900px;
+  margin: auto;
+}
+/* replace this comment with a selector that targets all h2 elements on both pages */ {
+  color: #387a1e;
+}
+/* all the anchors */ {
+  color: #e2ffbf;
+}
+
+/* ------- HEADER ------- */
+/* the header group of content */ {
+  position: relative;
+}
+/* the logo in the header */ {
+  margin: 20px;
+}
+/* the call-to-action in the header */ {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  color: #387a1e;
+  display: inline-block;
+  margin: 0;
+}
+/* the anchor in the call-to-action */ {
+  color: #387a1e;
+}
+
+/* ------- NAVIGATION ------- */
+/* the navigation group of content */ {
+  background-color: #5ca92c;
+  color: white;
+}
+/* the list in the navigation */ {
+  list-style-type: none;
+}
+/* the list items in the navigation */ {
+  display: inline-block;
+  padding: 20px 40px;
+}
+/* the anchor in the navigation */ {
+  color: #e2ffbf;
+}
+
+/* ------- CALL TO ACTION ------- */
+/* the call-to-action group of content at the bottom of the page */ {
+  background-color: #5ca92c;
+  width: 100%;
+  padding: 20px;
+  margin-top: 40px;  
+  text-align: center;
+  clear: right;
+}
+/* the heading in the call-to-action group */ {
+  color: white;
+}
+/* ------- FOOTER ------- */
+/* the footer group of content */ {
+  background-color: #292929;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+/* ======== HOME PAGE STYLES ========= */
+
+/* ------- HERO ------- */
+/* the hero group of content */ {
+  background-image: url(images/mowing-lawn.jpg);
+  background-size: cover;
+  padding: 150px;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+/* the heading in the hero group */ {
+  color: white;
+  font-size: 48px;
+}
+
+/* ------- ABOUT ------- */
+/* the group of content between the hero and the quotes */  {
+  padding: 40px 0;
+}
+
+/* ------- QUOTES ------- */
+/* the groups of content that include the quotes */ {
+  background-color: lightgray;
+  padding: 60px;
+  width: 900px;
+  margin: 0 auto 40px auto;
+  text-align: center;
+}
+/* the quotes */ {
+  line-height: 1.6;
+}
+/* the paragraphs in the quote groups */ {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* ======== ABOUT PAGE STYLES ========= */
+/* the about page heading */ {
+  font-size: 32px;
+}
+/* the section about the founder */ {
+  padding: 20px 40px 20px 0;
+  overflow: hidden;
+  background-color: lightgray;
+  margin: 40px auto;
+}
+/* the figure element in the section about the founder */ {
+  float: left;
+  text-align: center;
+  width: 50%;
+}
+/* the section about the team */ {
+  clear: left;
+  padding: 20px 0 20px 40px;
+  overflow: hidden;
+  background-color: lightgray;
+}
+/* the figure element in the section about the team */ {
+  float: right;
+  text-align: center;
+  width: 50%;
+}
+/* the images */ {
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 100%;
+}
+/* the image captions */ {
+  font-style: italic;
+}
