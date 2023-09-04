@@ -2,57 +2,55 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   font-family: serif;
   margin: 0;
   color: #450f0f;
   background-color: #F9F3E9;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.4;
 }
-section, nav ul, footer section {
+
+header section, nav ul, main, footer section {
   width: 900px;
   margin: auto;
 }
+
 a {
   color: 	#CC5500
 }
 
 /* ------- HEADERS ------- */
 
-/* the header  */ 
-header {
-  background-image: url(images/cbc-outside.jpg);
+/* the header on every page */ 
+{
+  background-image: url(images/patio.jpg);
   background-size: cover;
   background-position: center;
 }
 
-/* the group of content inside the header on all pages */ 
-header section {
+/* a section of content inside the header on every page */ 
+{
   padding: 100px 0;
   color: white;
   font-size: 30px;
 }
 
-/* the group of content inside the homepage header */ 
-section.home-hero {
-  font-size: 50px;
-}
-
-/* the header group of content on the story page */ 
-header.story {
+/* the homepage header only */ 
+{
   background-image: url(images/patio.jpg);
 }
 
-/* the section element inside the header on the story page */ 
-header.story section {
-  padding: 40px 0;
+/* a section of content inside the homepage header only */ 
+{
+  font-size: 40px;
 }
 
 /* ------- NAVIGATION ------- */
 
-/* the navigation group of content */
-nav {
+/* the navigation */
+{
   background-color: #5f1422;
   color: white;
   font-family: sans-serif;
@@ -61,59 +59,64 @@ nav {
   text-align: center;
 }
 
-/* the list in the navigation */
-nav ul {
+/* a list in the navigation */
+{
   list-style-type: none;
 }
 
-/* the list items in the navigation */ 
-nav ul li {
+/* a list item in the navigation */ 
+{
   display: inline-block;
   padding: 20px 40px;
 }
 
-/* the anchor in the navigation */ 
-nav ul li a {
+/* an anchor in the navigation */ 
+{
   color: #FFAA1D;
   text-decoration: none;
 }
 
-/* the anchor in the navigation */ 
-nav ul li a:hover {
+{
   text-decoration: underline;
 }
 
-.current-page {
+/* the current page in the navigation */ 
+{
   color: white;
 }
 
 /* ------- FOOTER ------- */
 
-/* the footer group of content */ 
-footer {
+/* the footer */ 
+{
   font-family: sans-serif;
   background-color: #292929;
   color: white;
   font-size: 14px;
 }
 
-footer section {
+/* the sections of content inside the footer */ 
+{
   padding: 20px 0;
 }
 
-footer h2 {
+/* a level 2 heading inside the footer */ 
+{
 font-size: 18px;
 }
 
-footer a {
+/* an anchor inside the footer */
+{
   color: #FFAA1D;
 }
 
-/* ======== CONTENT BLOCK STYLES ========= */
 
-/* ------- FOOTER ------- */
-/* the group of content about the introxxsadasda */  
-.important-content {
+/* ======== CONTENT BLOCKS ========= */
+
+/* ------- HIGHLIGHT BLOCK ------- */
+
+/* the groups of content that are highlighted because they are page introductions */  
+{
   text-align: center;
   padding: 40px 0;
   margin: 40px auto;
@@ -125,14 +128,13 @@ footer a {
   background-position: center;
 }
 
-.main-content {
-  padding: 0 0 80px;
-}
+/* ------- FEATURE BLOCK ------- */
 
-/* ------- FOOTER ------- */
-.feature {
+/* the self-contained groups of content that advertise another part of the website  */  
+{
   font-size: 18px;
   padding: 40px;
+  margin: 56px 0;
   background-color: #597184;
   color: white;
   font-family: sans-serif;
@@ -141,54 +143,63 @@ footer a {
   text-align: center;
 }
 
-.feature.beer {
+/* a level 2 heading inside the self-contained groups of content that advertise another part of the website */  
+{
+  font-size: 48px;
+  font-family: serif;
+  margin-top: 0;
+}
+ 
+ /* an anchor inside the self-contained groups of content that advertise another part of the website */ 
+{
+   color: #FFAA1D;
+}
+
+/* the self-contained group of content that advertises the beer page  */  
+{
   background-image: url(images/beer.jpg);
 }
 
-.feature.food {
+/* the self-contained group of content that advertises the food page  */
+{
   background-image: url(images/food.jpg);
 }
 
-.feature h2 {
- font-size: 48px;
- font-family: serif;
- margin-top: 0;
-}
+/* ------- CONTACT BLOCK ------- */
 
-.feature a {
-  color: #FFAA1D;
-}
-
-/* ------- FOOTER ------- */
-/* the group of content about the introxxsadasda */  
-.contact {
-  padding: 40px 0;
-  margin: 40px auto;
-  line-height: 1.4;
+/* the group of content that includes contact information */  
+{
+  margin: 0 0 40px;
   text-align: center;
-  font-size: 20px;
-}
-.contact ul {
-  list-style-type: none;
 }
 
-.contact div {
+/* a div element inside the group of content that includes contact information */  
+{
   display: inline-block;
   padding-right: 40px;
 }
 
-/* ======== ABOUT PAGE STYLES ========= */
+/* a list inside the group of content that includes contact information */  
+{
+  list-style-type: none;
+}
+
 /* ------- EDITORIAL IMAGE ------- */
-figure {
+
+/* a self-contained group of content that includes an image and a caption */ 
+{
   text-align: center;
 }
-figcaption {
+
+/* a caption inside a self-contained group of content that includes an image and a caption */ 
+{
   font-style: italic;
 }
 
 /* ------- QUOTES ------- */
-/* the groups of content that include the quotes */ 
-blockquote {
+
+/* an element that indicates that the enclosed text is an extended quotation */ 
+{
   background-color: #3C5060;
   color: white;
   padding: 60px;
@@ -198,7 +209,9 @@ blockquote {
   font-size: 26px;
   margin: 40px 0;
 }
-blockquote .author {
+
+/* the author of the quotation */ 
+{
   text-transform: uppercase;
   font-weight: bold;
   font-family: sans-serif;

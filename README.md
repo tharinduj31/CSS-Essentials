@@ -38,8 +38,8 @@ Note: The provided code includes HTML elements and CSS properties that you haven
     * An ID selector
     * A class selector
     * A descendant selector
-    * Add one internal (embedded) style rule
-    * Add one inline style rule
+    * An internal (embedded) style rule
+    * An inline style rule
 
 ### Step 4: Format and Add comments 
 * Use the Prettier VSCode extension to format your code.
