@@ -1,4 +1,4 @@
-# Exercise 3
+# CSS Essentials
 
 ## Objectives
 The provided code is the HTML and CSS for the home page and story page of a website inspired by a local company. However, the CSS is missing all of its selectors! You need to figure out which HTML elements to apply each style rule to, so that your finished website looks like the images below. After that, you will write some HTML and CSS of your own.
@@ -13,12 +13,12 @@ Remember to:
 * Clone your remote exercise repository onto your local machine.
 * Add a comment in the head element of the homepage including: the course code and your section number - your name - Exercise 3. Example:
 ```
-<!-- DGL 103 CVS1 - your name - Exercise 3 -->
+<!-- DGL 103 CVS1 - your name - CSS Essentials -->
 ```
 ### Step 2: Add the selectors
-Note: The syntax of a CSS comment is different to the syntax of an HTML comment.
-* Read through the HTML files and the CSS file and compare them to the images of the finished webpages to figure out how to replace the comments in the stylesheet with appropriate selectors. You may need to use class, element (type), or descendant selectors. There are many different correct ways that you could complete this exercise.<br>
-Pay attention to how CSS comments were used to identify different groups of style rules. Adding organizational comments doesn't affect the code, but it helps you keep your CSS tidy and easier to read. Only replace the comments that indicate where a selector should be. Example: 
+Note: The syntax of a CSS comment is different to the syntax of an HTML comment.<br>
+Read through the HTML files and the CSS file and compare them to the images of the finished webpages to figure out how to replace the comments in the stylesheet with appropriate selectors. You may need to use class, element (type), descendant or combination selectors. There are many different correct ways that you could complete this exercise.<br>
+Pay attention to how CSS comments were used to identify and organise different groups of style rules. Adding organizational comments doesn't affect the code, but it helps you keep your CSS tidy and easier to read. Only replace the comments that indicate where a selector should be. Example: 
 ```
 /* all the paragraphs */ {
   color: red;
@@ -30,10 +30,10 @@ p {
   color: red;
 }
 ```
-Note: The provided code includes HTML elements and CSS properties that you haven't learned about yet. That's ok because this exercise is about understanding the hierarchy between the elements and the syntax of the selectors. You don't need to understand all the code to be able to do the exercise.
+Note: The provided code includes HTML elements and CSS properties that you haven't learned about yet. That's ok because this exercise is about understanding the relationships between the elements and the syntax of the selectors. You don't need to understand all the code to be able to complete the exercise.
 
 ### Step 3: Write your own code
-* Add a new group of content anywhere in either one of the HTML files. You will need to write the content and the HTML yourself. Include at least four different types of HTML elements in your new group of content.
+* Add a new block of content at the bottomo f the homepage. You will need to write the content and the HTML yourself. Include at least four different types of HTML elements in your new block of content.
 * Style your new content using all of the following:
     * An ID selector
     * A class selector
