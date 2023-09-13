@@ -1,4 +1,4 @@
-# CSS Essentials
+# Exercise 3: CSS Essentials
 
 ## Objectives
 The provided code is the HTML and CSS for the home page and story page of a website inspired by a local company. However, the CSS is missing all of its selectors! You need to figure out which HTML elements to apply each style rule to, so that your finished website looks like the images below. After that, you will write some HTML and CSS of your own.
