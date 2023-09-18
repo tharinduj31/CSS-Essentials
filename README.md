@@ -2,7 +2,7 @@
 
 ## Objectives
 The provided code is the HTML and CSS for the home page and story page of a website inspired by a local company. However, the CSS is missing all of its selectors! You need to figure out which HTML elements to apply each style rule to, so that your finished website looks like the images below. After that, you will write some HTML and CSS of your own.
-![Image of homepage](images/finsihed-homepage.png)
+![Image of homepage](images/finished-homepage.png)
 ![Image of homepage](images/finished-story.png)
 
 ## Instructions
