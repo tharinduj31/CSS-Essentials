@@ -33,7 +33,7 @@ p {
 Note: The provided code includes HTML elements and CSS properties that you haven't learned about yet. That's ok because this exercise is about understanding the relationships between the elements and the syntax of the selectors. You don't need to understand all the code to be able to complete the exercise.
 
 ### Step 3: Write your own code
-* Add a new block of content at the bottomo f the homepage. You will need to write the content and the HTML yourself. Include at least four different types of HTML elements in your new block of content.
+* Add a new block of content at the bottom of the homepage. You will need to write the content and the HTML yourself. Include at least four HTML element types in your new block of content.
 * Style your new content using all of the following:
     * An ID selector
     * A class selector
