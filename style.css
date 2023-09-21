@@ -24,6 +24,7 @@ a {
 /* ------- HEADERS ------- */
 
 /* the header on every page */ 
+header
 {
   background-image: url(images/outside.jpg);
   background-size: cover;
@@ -31,6 +32,7 @@ a {
 }
 
 /* a section of content inside the header on every page */ 
+header section
 {
   padding: 100px 0;
   color: white;
@@ -38,11 +40,13 @@ a {
 }
 
 /* the homepage header only */ 
+.home header
 {
   background-image: url(images/patio.jpg);
 }
 
 /* a section of content inside the homepage header only */ 
+.home header
 {
   font-size: 40px;
 }
@@ -50,6 +54,7 @@ a {
 /* ------- NAVIGATION ------- */
 
 /* the navigation */
+nav
 {
   background-color: #5f1422;
   color: white;
@@ -60,23 +65,27 @@ a {
 }
 
 /* a list in the navigation */
+nav ul
 {
   list-style-type: none;
 }
 
 /* a list item in the navigation */ 
+nav li
 {
   display: inline-block;
   padding: 20px 40px;
 }
 
 /* an anchor in the navigation */ 
+nav a
 {
   color: #FFAA1D;
   text-decoration: none;
 }
 
 /* the current page in the navigation */ 
+nav .current-page
 {
   color: white;
 }
@@ -84,6 +93,8 @@ a {
 /* ------- FOOTER ------- */
 
 /* the footer */ 
+
+footer
 {
   font-family: sans-serif;
   background-color: #292929;
@@ -92,16 +103,19 @@ a {
 }
 
 /* the sections of content inside the footer */ 
+footer section
 {
   padding: 20px 0;
 }
 
 /* a level 2 heading inside the footer */ 
+footer h2
 {
 font-size: 18px;
 }
 
 /* an anchor inside the footer */
+footer a
 {
   color: #FFAA1D;
 }
@@ -112,6 +126,7 @@ font-size: 18px;
 /* ------- HIGHLIGHT BLOCK ------- */
 
 /* the groups of content that are highlighted because they are page introductions */  
+.highlight-content
 {
   text-align: center;
   padding: 40px 0;
@@ -127,6 +142,7 @@ font-size: 18px;
 /* ------- FEATURE BLOCK ------- */
 
 /* the self-contained groups of content that advertise another part of the website  */  
+.feature-link
 {
   font-size: 18px;
   padding: 40px;
@@ -139,7 +155,8 @@ font-size: 18px;
   text-align: center;
 }
 
-/* a level 2 heading inside the self-contained groups of content that advertise another part of the website */  
+/* a level 2 heading inside the self-contained groups of content that advertise another part of the website */ 
+.feature-link h2
 {
   font-size: 48px;
   font-family: serif;
@@ -147,16 +164,19 @@ font-size: 18px;
 }
  
  /* an anchor inside the self-contained groups of content that advertise another part of the website */ 
+ .feature-link a
 {
    color: #FFAA1D;
 }
 
 /* the self-contained group of content that advertises the beer page  */  
+.beer
 {
   background-image: url(images/beer.jpg);
 }
 
 /* the self-contained group of content that advertises the food page  */
+.food
 {
   background-image: url(images/food.jpg);
 }
@@ -164,37 +184,43 @@ font-size: 18px;
 /* ------- CONTACT BLOCK ------- */
 
 /* the group of content that includes contact information */  
+.contact
 {
   margin: 0 0 40px;
   text-align: center;
 }
 
 /* a div element inside the group of content that includes contact information */  
+.contact div
 {
   display: inline-block;
   padding-right: 40px;
 }
 
 /* a list inside the group of content that includes contact information */  
-{
+.contact div li{
   list-style-type: none;
 }
 
 /* ------- EDITORIAL IMAGE ------- */
 
 /* a self-contained group of content that includes an image and a caption */ 
+figure
 {
   text-align: center;
 }
 
 /* a caption inside a self-contained group of content that includes an image and a caption */ 
-{
+
+figcaption{
   font-style: italic;
 }
 
 /* ------- QUOTES ------- */
 
 /* an element that indicates that the enclosed text is an extended quotation */ 
+
+blockquote 
 {
   background-color: #3C5060;
   color: white;
@@ -207,6 +233,8 @@ font-size: 18px;
 }
 
 /* the author of the quotation */ 
+
+blockquote .author
 {
   text-transform: uppercase;
   font-weight: bold;
