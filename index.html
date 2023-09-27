@@ -1,124 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cumberland Brewing</title>
+    <link rel="stylesheet" href="style.css" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cumberland Brewing</title>
-  <link rel="stylesheet" href="style.css">
+    <!--step 3: Internal Css -->
+    <style>
+      .birthday-offer {
+        background-color: #f7bac4;
+        padding: 0px;
+      }
+    </style>
+  </head>
 
+  <body class="home">
+    <header>
+      <section>
+        <img
+          src="images/cbc-logo.png"
+          width="150"
+          alt="Cumberland Brewing Company Logo"
+        />
+        <h1>
+          Real beer. <br />
+          Brewed right here.
+        </h1>
+      </section>
+      <nav>
+        <ul>
+          <li class="current-page">home</li>
+          <li><a href="">Beer</a></li>
+          <li><a href="">Food</a></li>
+          <li><a href="story.html">Story</a></li>
+          <li><a href="">Store</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <!--step 3: Internal Css -->
-  <style>
-
-.birthday-offer {                       
- 
-  background-color: #f7bac4;
-  padding: 0px;
-}
-   </style>
-
-
-</head>
-
-<body class="home">
-  <header>
-    <section>
-      <img src="images/cbc-logo.png" width="150" alt="Cumberland Brewing Company Logo">
-      <h1>Real beer. <br /> Brewed right here.</h1>
-    </section>
-    <nav>
-      <ul>
-        <li class="current-page">home</li>
-        <li><a href="">Beer</a></li>
-        <li><a href="">Food</a></li>
-        <li><a href="story.html">Story</a></li>
-        <li><a href="">Store</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <p class="highlight-content">For millennia brewers have taken hops, grain, yeast and water and turned them into
-      flavours unique to their own place and time. Each beer - some rough and some refined - captured the essence of a
-      moment. We love to share these moments with our guests.</p>
-    <article class="feature-link beer">
-      <h2>Beer</h2>
-      <p>Quench your thirst with one of our famous brews.</p>
-      <a href="beer.html">See what's on tap</a>
-    </article>
-    <p>Cumberland has always been a community on the fringes, a place where independent thinkers could come for a
-      fresh start and to build something of their own. Today it's tree planters and oil patch workers, outdoor
-      enthusiasts, activists, young families, creatives, retirees, and tireless trail builders. At the end of the day
-      these disparate folks eat, drink and come together. Growing a community is thirsty work.
-    </p>
-    <article class="feature-link food">
-      <h2>Food</h2>
-      <p>Hungry? You will be when you see our menu!</p>
-      <a href="food.html">View our menu</a>
-    </article>
-    <p>Cumberland deserves good beer that's a reward for the daily toil of continuing to build a community. Real beer.
-      Brewed right here.</p>
+    <main>
+      <p class="highlight-content">
+        For millennia brewers have taken hops, grain, yeast and water and turned
+        them into flavours unique to their own place and time. Each beer - some
+        rough and some refined - captured the essence of a moment. We love to
+        share these moments with our guests.
+      </p>
+      <article class="feature-link beer">
+        <h2>Beer</h2>
+        <p>Quench your thirst with one of our famous brews.</p>
+        <a href="beer.html">See what's on tap</a>
+      </article>
+      <p>
+        Cumberland has always been a community on the fringes, a place where
+        independent thinkers could come for a fresh start and to build something
+        of their own. Today it's tree planters and oil patch workers, outdoor
+        enthusiasts, activists, young families, creatives, retirees, and
+        tireless trail builders. At the end of the day these disparate folks
+        eat, drink and come together. Growing a community is thirsty work.
+      </p>
+      <article class="feature-link food">
+        <h2>Food</h2>
+        <p>Hungry? You will be when you see our menu!</p>
+        <a href="food.html">View our menu</a>
+      </article>
+      <p>
+        Cumberland deserves good beer that's a reward for the daily toil of
+        continuing to build a community. Real beer. Brewed right here.
+      </p>
 
       <!-- Step 3: Write your own code -->
 
-      <section class="birthday-offer">            <!-- class selector-->
+      <section class="birthday-offer">
+        <!-- class selector-->
         <h2>WE OFFER YOU A FREE BIRTHDAY MEAL ONLY IF YOU</h2>
         <ul>
           <li>Come in on the day of your birthday.</li>
-          <li>Bring at least <span>one friend.</span></li>             <!--  descendant selector-->
+          <li>Bring at least <span>one friend.</span></li>
+          <!--  descendant selector-->
           <li>Can spell your name correctly.</li>
-          <li style="color:blue;">And of course, you can prove it’s your birthday.  </li>        <!-- inline css-->
+          <li style="color: blue">
+            And of course, you can prove it’s your birthday.
+          </li>
+          <!-- inline css-->
         </ul>
 
-        <h3 id="discount">We'll give you $20 off one menu item before 4pm or $30 off one menu item from 4pm until close.</h3>   <!-- id selector-->
-
-
+        <h3 id="discount">
+          We'll give you $20 off one menu item before 4pm or $30 off one menu
+          item from 4pm until close.
+        </h3>
+        <!-- id selector-->
       </section>
 
-        <!-- Step 3: completed-->
+      <!-- Step 3: completed-->
 
+      <section class="contact">
+        <div>
+          <h2>When</h2>
+          <ul>
+            <li>Mon: CLOSED</li>
+            <li>Tues: 12-9 pm</li>
+            <li>Wed: 12-9 pm</li>
+            <li>Thurs: 12-9 pm</li>
+            <li>Fri, Sat &amp; Sun: 12-10 pm</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Where</h2>
+          <address>
+            <p>
+              2732 Dunsmuir Ave, <br />
+              Cumberland, BC V0R 1S0
+            </p>
+            <a href="mailto:hello@cumberlandbrewing.com"
+              >hello@cumberlandbrewing.com</a
+            ><br />
+            <a href="tel:+1250400BREW">1-250-400-BREW</a>
+          </address>
+        </div>
+      </section>
+    </main>
 
-
-
-    <section class="contact">
-      <div>
-        <h2>When</h2>
-        <ul>
-          <li>Mon: CLOSED</li>
-          <li>Tues: 12-9 pm</li>
-          <li>Wed: 12-9 pm</li>
-          <li>Thurs: 12-9 pm</li>
-          <li>Fri, Sat &amp; Sun: 12-10 pm</li>
-        </ul>
+    <footer>
+      <div class="about">
+        <h2>About Cumberland Brewing Co.</h2>
+        <p>
+          Cumberland Brewery, nestled in the heart of Cumberland, proudly
+          provides good beer, good food, and a place to relax.
+        </p>
+        <a href="story.html">Read the CBC Story</a>
       </div>
-      <div>
-        <h2>Where</h2>
-        <address>
-          <p>2732 Dunsmuir Ave, <br />
-            Cumberland, BC V0R 1S0</p>
-          <a href="mailto:hello@cumberlandbrewing.com">hello@cumberlandbrewing.com</a><br />
-          <a href="tel:+1250400BREW">1-250-400-BREW</a>
-        </address>
+      <hr />
+      <div class="disclaimer">
+        <small
+          >Content taken from
+          <a href="https://cumberlandbrewing.com/">cumberlandbrewing.com/</a>.
+          To be used for educational purposes only.</small
+        >
       </div>
-    </section>
-  </main>
-
-  <footer>
-    <section class="about">
-      <h2>About Cumberland Brewing Co.</h2>
-      <p>Cumberland Brewery, nestled in the heart of Cumberland, proudly provides good beer, good food, and a place to
-        relax.</p>
-      <a href="story.html">Read the CBC Story</a>
-    </section>
-    <hr>
-    <section class="disclaimer">
-      <small>Content taken from <a href="https://cumberlandbrewing.com/">cumberlandbrewing.com/</a>. To be used for
-        educational purposes
-        only.</small>
-    </section>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>

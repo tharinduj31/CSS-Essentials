@@ -15,7 +15,7 @@ body {
 header section,
 nav ul,
 main,
-footer section {
+footer div {
   width: 900px;
   margin: auto;
 }
@@ -47,7 +47,7 @@ header section {
 
 /* a section of content inside the homepage header only */
 .home header {
-  font-size: 40px;
+  font-size: 20px;
 }
 
 /* ------- NAVIGATION ------- */
@@ -59,7 +59,7 @@ nav {
   font-family: sans-serif;
   text-transform: uppercase;
   color: #ffaa1d;
-  text-align: center;
+  /* text-align: center; */
 }
 
 /* a list in the navigation */
@@ -93,10 +93,11 @@ footer {
   background-color: #292929;
   color: white;
   font-size: 14px;
+  text-align: left;
 }
 
 /* the sections of content inside the footer */
-footer section {
+footer div {
   padding: 20px 0;
 }
 
@@ -229,7 +230,6 @@ blockquote .author {
   font-family: serif;
   margin-top: 50px;
   color: #b11834;
-  
 }
 
 .birthday-offer li span {
@@ -240,8 +240,10 @@ blockquote .author {
   color: #37ce41;
 }
 
-#discount{
+#discount {
   font-style: italic;
   font-family: serif;
   margin-top: 10px;
 }
+
+/* Step 3 completed */
