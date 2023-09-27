@@ -7,127 +7,115 @@ body {
   font-family: serif;
   margin: 0;
   color: #450f0f;
-  background-color: #F9F3E9;
+  background-color: #f9f3e9;
   font-size: 20px;
   line-height: 1.4;
 }
 
-header section, nav ul, main, footer section {
+header section,
+nav ul,
+main,
+footer section {
   width: 900px;
   margin: auto;
 }
 
 a {
-  color: 	#CC5500
+  color: #cc5500;
 }
 
 /* ------- HEADERS ------- */
 
-/* the header on every page */ 
-header
-{
+/* the header on every page */
+header {
   background-image: url(images/outside.jpg);
   background-size: cover;
   background-position: center;
 }
 
-/* a section of content inside the header on every page */ 
-header section
-{
+/* a section of content inside the header on every page */
+header section {
   padding: 100px 0;
   color: white;
   font-size: 30px;
 }
 
-/* the homepage header only */ 
-.home header
-{
+/* the homepage header only */
+.home header {
   background-image: url(images/patio.jpg);
 }
 
-/* a section of content inside the homepage header only */ 
-.home header
-{
+/* a section of content inside the homepage header only */
+.home header {
   font-size: 40px;
 }
 
 /* ------- NAVIGATION ------- */
 
 /* the navigation */
-nav
-{
+nav {
   background-color: #5f1422;
   color: white;
   font-family: sans-serif;
   text-transform: uppercase;
-  color: #FFAA1D;
+  color: #ffaa1d;
   text-align: center;
 }
 
 /* a list in the navigation */
-nav ul
-{
+nav ul {
   list-style-type: none;
 }
 
-/* a list item in the navigation */ 
-nav li
-{
+/* a list item in the navigation */
+nav li {
   display: inline-block;
   padding: 20px 40px;
 }
 
-/* an anchor in the navigation */ 
-nav a
-{
-  color: #FFAA1D;
+/* an anchor in the navigation */
+nav a {
+  color: #ffaa1d;
   text-decoration: none;
 }
 
-/* the current page in the navigation */ 
-nav .current-page
-{
+/* the current page in the navigation */
+nav .current-page {
   color: white;
 }
 
 /* ------- FOOTER ------- */
 
-/* the footer */ 
+/* the footer */
 
-footer
-{
+footer {
   font-family: sans-serif;
   background-color: #292929;
   color: white;
   font-size: 14px;
 }
 
-/* the sections of content inside the footer */ 
-footer section
-{
+/* the sections of content inside the footer */
+footer section {
   padding: 20px 0;
 }
 
-/* a level 2 heading inside the footer */ 
-footer h2
-{
-font-size: 18px;
+/* a level 2 heading inside the footer */
+footer h2 {
+  font-size: 18px;
 }
 
 /* an anchor inside the footer */
-footer a
-{
-  color: #FFAA1D;
+footer a {
+  color: #ffaa1d;
 }
-
 
 /* ======== CONTENT BLOCKS ========= */
 
 /* ------- HIGHLIGHT BLOCK ------- */
 
-/* the groups of content that are highlighted because they are page introductions */  
-.highlight-content
-{
+/* the groups of content that are highlighted because they are page introductions */
+.highlight-content {
   text-align: center;
   padding: 40px 0;
   margin: 40px auto;
@@ -141,9 +129,8 @@ footer a
 
 /* ------- FEATURE BLOCK ------- */
 
-/* the self-contained groups of content that advertise another part of the website  */  
-.feature-link
-{
+/* the self-contained groups of content that advertise another part of the website  */
+.feature-link {
   font-size: 18px;
   padding: 40px;
   margin: 56px 0;
@@ -155,74 +142,66 @@ footer a
   text-align: center;
 }
 
-/* a level 2 heading inside the self-contained groups of content that advertise another part of the website */ 
-.feature-link h2
-{
+/* a level 2 heading inside the self-contained groups of content that advertise another part of the website */
+.feature-link h2 {
   font-size: 48px;
   font-family: serif;
   margin-top: 0;
 }
- 
- /* an anchor inside the self-contained groups of content that advertise another part of the website */ 
- .feature-link a
-{
-   color: #FFAA1D;
+
+/* an anchor inside the self-contained groups of content that advertise another part of the website */
+.feature-link a {
+  color: #ffaa1d;
 }
 
-/* the self-contained group of content that advertises the beer page  */  
-.beer
-{
+/* the self-contained group of content that advertises the beer page  */
+.beer {
   background-image: url(images/beer.jpg);
 }
 
 /* the self-contained group of content that advertises the food page  */
-.food
-{
+.food {
   background-image: url(images/food.jpg);
 }
 
 /* ------- CONTACT BLOCK ------- */
 
-/* the group of content that includes contact information */  
-.contact
-{
+/* the group of content that includes contact information */
+.contact {
   margin: 0 0 40px;
   text-align: center;
 }
 
-/* a div element inside the group of content that includes contact information */  
-.contact div
-{
+/* a div element inside the group of content that includes contact information */
+.contact div {
   display: inline-block;
   padding-right: 40px;
 }
 
-/* a list inside the group of content that includes contact information */  
-.contact div li{
+/* a list inside the group of content that includes contact information */
+.contact div li {
   list-style-type: none;
 }
 
 /* ------- EDITORIAL IMAGE ------- */
 
-/* a self-contained group of content that includes an image and a caption */ 
-figure
-{
+/* a self-contained group of content that includes an image and a caption */
+figure {
   text-align: center;
 }
 
-/* a caption inside a self-contained group of content that includes an image and a caption */ 
+/* a caption inside a self-contained group of content that includes an image and a caption */
 
-figcaption{
+figcaption {
   font-style: italic;
 }
 
 /* ------- QUOTES ------- */
 
-/* an element that indicates that the enclosed text is an extended quotation */ 
+/* an element that indicates that the enclosed text is an extended quotation */
 
-blockquote 
-{
-  background-color: #3C5060;
+blockquote {
+  background-color: #3c5060;
   color: white;
   padding: 60px;
   width: 900px;
@@ -232,10 +211,9 @@ blockquote
   margin: 40px 0;
 }
 
-/* the author of the quotation */ 
+/* the author of the quotation */
 
-blockquote .author
-{
+blockquote .author {
   text-transform: uppercase;
   font-weight: bold;
   font-family: sans-serif;
@@ -245,3 +223,8 @@ blockquote .author
 /* step 2 completed */
 
 
+.feature-link h2 {
+  font-size: 48px;
+  font-family: serif;
+  margin-top: 0;
+}
