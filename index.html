@@ -7,6 +7,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cumberland Brewing</title>
   <link rel="stylesheet" href="style.css">
+
+
+  <!--step 3: Internal Css -->
+  <style>
+
+.birthday-offer {                       
+ 
+  background-color: #f7bac4;
+  padding: 0px;
+}
+   </style>
+
+
 </head>
 
 <body class="home">
@@ -50,19 +63,21 @@
 
       <!-- Step 3: Write your own code -->
 
-      <section class="birthday-offer">
+      <section class="birthday-offer">            <!-- class selector-->
         <h2>WE OFFER YOU A FREE BIRTHDAY MEAL ONLY IF YOU</h2>
         <ul>
-          <li>Come in on the day of your birthday</li>
-          <li>Bring at least one friend</li>
-          <li>Can spell your name correctly</li>
-          <li>And of course, you can prove it’s your birthday</li>
+          <li>Come in on the day of your birthday.</li>
+          <li>Bring at least <span>one friend.</span></li>             <!--  descendant selector-->
+          <li>Can spell your name correctly.</li>
+          <li style="color:blue;">And of course, you can prove it’s your birthday.  </li>        <!-- inline css-->
         </ul>
 
-        <h3>We'll give you $20 off one menu item before 4pm or $30 off one menu item from 4pm until close.</h3>
+        <h3 id="discount">We'll give you $20 off one menu item before 4pm or $30 off one menu item from 4pm until close.</h3>   <!-- id selector-->
 
 
       </section>
+
+        <!-- Step 3: completed-->
 
 
 
